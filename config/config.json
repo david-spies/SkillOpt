@@ -1,0 +1,41 @@
+{
+  "_comment": "SkillOpt default configuration. Override any value with CLI flags.",
+
+  "models": {
+    "optimizer": "claude-sonnet-4-20250514",
+    "evaluator": "claude-haiku-4-5-20251001",
+    "optimizer_high_quality": "claude-opus-4-20250514"
+  },
+
+  "loop": {
+    "default_iterations": 10,
+    "default_budget_usd": 3.00,
+    "default_score_threshold": 4.8,
+    "min_delta_to_accept": 0.05,
+    "holdout_percentage": 20,
+    "holdout_check_every_n_accepts": 3
+  },
+
+  "quality_gate": {
+    "max_instruction_lines": 200,
+    "min_training_scenarios": 15,
+    "overfit_gap_warning": 0.5,
+    "run_validate_sh": true,
+    "auto_git_backup": true
+  },
+
+  "paths": {
+    "skills_dir": ".agents/skills",
+    "golden_set_dir": "evals/golden-set",
+    "baselines_dir": "evals/golden-set/baselines",
+    "memories_file": "MEMORIES.md",
+    "validate_script": "validate.sh",
+    "references_dir": "references"
+  },
+
+  "cost_estimates_per_1k_tokens": {
+    "claude-opus-4-20250514":   0.015,
+    "claude-sonnet-4-20250514": 0.003,
+    "claude-haiku-4-5-20251001": 0.0008
+  }
+}
