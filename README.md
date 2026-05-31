@@ -1,4 +1,4 @@
-![Ai-Agent Builder Banner](.docs/skillopt_banner.svg)
+[Ai-Agent Builder Banner](/docs/skillopt_banner.svg)
 
 ![SkillOpt](https://img.shields.io/badge/SkillOpt-v1.1.0-4ade80?style=flat-square&labelColor=0c0c0c)
 ![License](https://img.shields.io/badge/License-MIT-22c55e?style=flat-square&labelColor=0c0c0c)
@@ -264,7 +264,7 @@ This is the most important operational detail: **SkillOpt does not assume any fi
 ┌─────────────────────────────────────────────────────────────────┐
 │  SOURCE 3: Paste raw content                                    │
 │                                                                 │
-│  Copy the contents of a SKILL.md from a GitHub web UI,         │
+│  Copy the contents of a SKILL.md from a GitHub web UI,          │
 │  a remote terminal, or a colleague's message. Paste it into     │
 │  the browser UI "paste text" tab or pipe it to the CLI.         │
 └─────────────────────────────────────────────────────────────────┘
