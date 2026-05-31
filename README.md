@@ -1,5 +1,4 @@
-[![Ai-Agent Builder Banner](/docs/skillopt_banner.svg)]
-
+![Ai-Agent Builder Banner](/docs/skillopt_banner.svg)
 ![SkillOpt](https://img.shields.io/badge/SkillOpt-v1.1.0-4ade80?style=flat-square&labelColor=0c0c0c)
 ![License](https://img.shields.io/badge/License-MIT-22c55e?style=flat-square&labelColor=0c0c0c)
 ![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=1a1a2e)
